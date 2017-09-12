@@ -4,5 +4,10 @@ A Progressive web app with Webpack, Vue.js and material design.
 TODO
 ========
 
- + Add functionalities with Vue-fire
+ + Add More material design
  + More Vue components for views
+ 
+ISSUES
+========
+
+ + Post request not working
