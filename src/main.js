@@ -3,12 +3,20 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import vuefire from 'vuefire'
+import firebase from './service/firebase'
+import axios from 'axios'
 
 Vue.config.productionTip = false
+Vue.use(vuefire);
+Vue.use(axios);
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  firebase: {
+    cat: firebase.database.ref('cat').orderByChild('created_at')
+  },
   router,
   template: '<App/>',
   components: { App }
