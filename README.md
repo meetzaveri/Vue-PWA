@@ -28,6 +28,7 @@ TODO
 
  + Add More material design
  + More Vue components for views
+ + Add service worker for offline caching
  
 ISSUES
 ========
