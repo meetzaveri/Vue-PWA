@@ -29,7 +29,6 @@ export default {
  methods :{
      displaydetails (id){
          this.$router.push({name:'detailview', params:{id:id}});
-         console.log("helo");
      }
  }
 }
