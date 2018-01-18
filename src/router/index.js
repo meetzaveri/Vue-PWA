@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '../components/Hello'
 import homeview from '../components/homeview'
 import detailview from '../components/detailview'
 import postview from '../components/postview'
